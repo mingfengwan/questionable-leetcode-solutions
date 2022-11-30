@@ -10,7 +10,7 @@ After getting the depth of the tree d, we want to know where does the incomplete
 
 Thought my solution is still O(log^2(n)) with space O(1), the total runtime time is actually cut in half, since we decrease the depth each time we perform a subtree check.
 
-## Count number of nodes in a complete Binary Tree
+## Perfect squares
 - [LeetCode link](https://leetcode.com/problems/perfect-squares/)
 - [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/perfect-squares.py)
 
