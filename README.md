@@ -22,4 +22,4 @@ Similiar to the official solution, but there's no need to loop from floor(n**(0.
 - [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/3sum-smaller.py)
 
 ### My approach
-Instead of checking the pairs of (j,k) one by one, for every pair of (i,j) we decrement k from len(nums)-1. If nums[i]+nums[j]+nums[k]<target, we break the while loop and increment the total number of pairs by k-j.
+Instead of checking the pairs of (j, k) one by one, for every pair of (i, j) we decrement k from `len(nums) - 1`. If `nums[i] + nums[j] + nums[k] < target`, we break the while loop and increment the total number of pairs by k - j.
