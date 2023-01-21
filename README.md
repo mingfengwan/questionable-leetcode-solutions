@@ -15,7 +15,7 @@ Thought my solution is still $O(log^2(n))$ with space $O(1)$, the total runtime 
 - [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/perfect-squares.py)
 
 ### My approach
-Similiar to the official solution, but there's no need to loop from $\lfloor\sqrt{n}\rfloor$ to 1 to check if the number can be decomposed into sum of two squares. Instead we only need to loop from $\lfloor\sqrt{n}\rfloor$ to $\lfloor\sqrt{0.5n}\rfloor$.
+Similiar to the official solution, but there's no need to loop from $\lfloor\sqrt{n}\rfloor$ to $1$ to check if the number can be decomposed into sum of two squares. Instead we only need to loop from $\lfloor\sqrt{n}\rfloor$ to $\lfloor\sqrt{0.5n}\rfloor$.
 
 ## 3Sum Smaller
 - [LeetCode link](https://leetcode.com/problems/3sum-smaller/)
