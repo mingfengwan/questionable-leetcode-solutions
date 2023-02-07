@@ -1,5 +1,5 @@
 # Questionable LeetCode Solutions
-LeetCode Solutions that I believe to be sub-optimal. This repository is incomplete and subject to change (whenever I have time)
+LeetCode Solutions that I believe to be sub-optimal.
 
 ## Count number of nodes in a complete Binary Tree
 - [LeetCode link](https://leetcode.com/problems/count-complete-tree-nodes/)
@@ -23,3 +23,10 @@ Similiar to the official solution, but there's no need to loop from $\lfloor\sqr
 
 ### My approach
 Instead of checking the pairs of $(j,k)$ one by one, for every pair of $(i,j)$ we decrement $k$ from `len(nums) - 1`. If `nums[i] + nums[j] + nums[k] < target`, we break the while loop and increment the total number of pairs by $k-j$.
+
+## 24 Game
+- [LeetCode link](https://leetcode.com/problems/24-game/)
+- [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/24-game.py)
+
+### My approach
+The code is a lot faster if we set base case to be array size equal to $2$ instead of $1$.
