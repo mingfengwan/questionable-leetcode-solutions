@@ -1,6 +1,14 @@
 # Questionable LeetCode Solutions
 LeetCode Solutions that I believe to be sub-optimal.
 
+## Minimum Amount of Time to Collect Garbage [Accepted as official solution]
+- [LeetCode link](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)
+- [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/minimum-amount-of-time-to-collect-garbage.py)
+- [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/18275)
+
+### My approach
+No need for extra space or modifying the array input in-place. Just loop backwards.
+
 ## Count number of nodes in a complete Binary Tree
 - [LeetCode link](https://leetcode.com/problems/count-complete-tree-nodes/)
 - [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/count-complete-tree-nodes.py)
@@ -37,10 +45,3 @@ The code is a lot faster if we set base case to be array size equal to $2$ inste
 
 ### My approach
 One less for loop compared to the official solution.
-
-## Minimum Amount of Time to Collect Garbage
-- [LeetCode link](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)
-- [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/minimum-amount-of-time-to-collect-garbage.py)
-
-### My approach
-No need for extra space or modifying the array input in-place. Just loop backwards. 
