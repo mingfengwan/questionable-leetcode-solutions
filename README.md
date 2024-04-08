@@ -1,7 +1,8 @@
 # Questionable LeetCode Solutions
 LeetCode Solutions that I believe to be sub-optimal.
 
-## Minimum Amount of Time to Collect Garbage [Accepted as official solution]
+## Minimum Amount of Time to Collect Garbage
+### `✅ Accepted as official solution`
 - [LeetCode link](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)
 - [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/minimum-amount-of-time-to-collect-garbage.py)
 - [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/18275)
