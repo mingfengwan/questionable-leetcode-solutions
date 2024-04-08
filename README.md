@@ -38,13 +38,6 @@ The code is a lot faster if we set base case to be array size equal to $2$ inste
 ### My approach
 One less for loop compared to the official solution.
 
-## Set Matrix Zeroes
-- [LeetCode link](https://leetcode.com/problems/set-matrix-zeroes/)
-- [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/set-matrix-zeroes.py)
-
-### My approach
-One less for loop compared to the official solution.
-
 ## Minimum Amount of Time to Collect Garbage
 - [LeetCode link](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)
 - [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/minimum-amount-of-time-to-collect-garbage.py)
