@@ -8,7 +8,14 @@ LeetCode Solutions that I believe to be sub-optimal.
 - [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/18275)
 
 ### My approach
-No need for extra space or modifying the array input in-place. Just loop backwards.
+No need for extra space or modifying the array input in-place. Just loop backward.
+
+## Sudoku Solver
+- [LeetCode link](https://leetcode.com/problems/sudoku-solver/)
+- [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/sudoku-solver.py)
+
+### My approach
+Using hash tables instead of bitmasks is extremely inefficient in terms of space utilization, as hash tables occupy 9 times more space.
 
 ## Count number of nodes in a complete Binary Tree
 - [LeetCode link](https://leetcode.com/problems/count-complete-tree-nodes/)
