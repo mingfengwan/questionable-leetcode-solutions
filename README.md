@@ -15,7 +15,7 @@ No need for extra space or modifying the array input in-place. Just loop backwar
 - [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/sudoku-solver.py)
 
 ### My approach
-Using hash tables instead of bitmasks is extremely inefficient in terms of space utilization, as hash tables occupy 9 times more space.
+Bitmasking instead of hash set. Hash set consumes 9 times more space than bitmasking ($O(n^2)$ versus $O(n)$).
 
 ## Count number of nodes in a complete Binary Tree
 - [LeetCode link](https://leetcode.com/problems/count-complete-tree-nodes/)
