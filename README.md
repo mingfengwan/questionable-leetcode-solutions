@@ -11,8 +11,10 @@ LeetCode Solutions that I believe to be sub-optimal.
 No need for extra space or modifying the array input in-place. Just loop backward.
 
 ## Sudoku Solver
+### `✅ Accepted as official solution`
 - [LeetCode link](https://leetcode.com/problems/sudoku-solver/)
 - [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/sudoku-solver.py)
+- [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/21793)
 
 ### My approach
 Bitmasking instead of hash set. Hash set consumes 9 times more space than bitmasking ($O(n^2)$ versus $O(n)$).
