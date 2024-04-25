@@ -56,7 +56,7 @@ The code is a lot faster if we set base case to be array size equal to $2$ inste
 ### My approach
 One less for loop compared to the official solution.
 
-## Set Matrix Zeroes
+## Longest Ideal Subsequence
 - [LeetCode link](https://leetcode.com/problems/longest-ideal-subsequence/)
 - [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/longest-ideal-subsequence.py)
 
