@@ -19,6 +19,15 @@ No need for extra space or modifying the array input in-place. Just loop backwar
 ### My approach
 Bitmasking instead of hash set. Hash set consumes 9 times more space than bitmasking ($O(n^2)$ versus $O(n)$).
 
+## Longest Ideal Subsequence
+### `✅ Accepted as official solution`
+- [LeetCode link](https://leetcode.com/problems/longest-ideal-subsequence/)
+- [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/longest-ideal-subsequence.py)
+- [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/21962)
+
+### My approach
+There are several redundancies in the solution. Looping through all 26 characters is unnecessary.
+
 ## Count number of nodes in a complete Binary Tree
 - [LeetCode link](https://leetcode.com/problems/count-complete-tree-nodes/)
 - [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/count-complete-tree-nodes.py)
@@ -55,10 +64,3 @@ The code is a lot faster if we set base case to be array size equal to $2$ inste
 
 ### My approach
 One less for loop compared to the official solution.
-
-## Longest Ideal Subsequence
-- [LeetCode link](https://leetcode.com/problems/longest-ideal-subsequence/)
-- [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/longest-ideal-subsequence.py)
-
-### My approach
-There are several redundancies in the solution. Looping through all 26 characters is unnecessary.
