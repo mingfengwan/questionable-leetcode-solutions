@@ -51,6 +51,13 @@ Similar to the official solution, but there's no need to loop from $\lfloor\sqrt
 ### My approach
 Instead of checking the pairs of $(j,k)$ one by one, for every pair of $(i,j)$ we decrement $k$ from `len(nums) - 1`. If `nums[i] + nums[j] + nums[k] < target`, we break the while loop and increment the total number of pairs by $k-j$.
 
+## Grumpy Bookstore Owner
+- [LeetCode link](https://leetcode.com/problems/grumpy-bookstore-owner/)
+- [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/grumpy-bookstore-owner.py)
+
+### My approach
+One less for loop compared to the official solution.
+
 ## 24 Game
 - [LeetCode link](https://leetcode.com/problems/24-game/)
 - [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/24-game.py)
