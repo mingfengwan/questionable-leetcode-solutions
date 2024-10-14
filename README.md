@@ -71,3 +71,10 @@ The code is a lot faster if we set base case to be array size equal to $2$ inste
 
 ### My approach
 One less for loop compared to the official solution.
+
+## Maximal Score After Applying K Operations
+- [LeetCode link](https://leetcode.com/problems/maximal-score-after-applying-k-operations/)
+- [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/maximal-score-after-applying-k-operations.py)
+
+### My approach
+You only need to gather the largest $k$ elements for the heap. Time complexity reduced to $O(klogk + nlogn)$, space complexity reduced to $O(k)$
