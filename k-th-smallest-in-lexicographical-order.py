@@ -2,7 +2,7 @@ class Solution(object):
     def findKthNumber(self, n, k):
         curr = 1
         k -= 1
-        diff = len(str(n)) - 1
+        diff = math.floor(math.log10(n))
 
         # To count how many numbers exist between prefix1 and prefix2
         def count_steps(prefix1, prefix2):
