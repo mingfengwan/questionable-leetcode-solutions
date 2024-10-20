@@ -78,3 +78,12 @@ One less for loop compared to the official solution.
 
 ### My approach
 You only need to gather the largest $k$ elements for the heap. Time complexity reduced to $O(klogk + nlogn)$, space complexity reduced to $O(k)$
+
+## K-th Smallest in Lexicographical Order
+- [LeetCode link](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)
+- [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/k-th-smallest-in-lexicographical-order.py)
+
+### My approach
+Using the formula for geometric series instead of a while loop significantly improves the speed of counting the number of steps.
+
+Rationale: Think of this as a permutation problem. For any number between $1$ to $n$, there are $(1 + 10 + 10^2 + \dotsm 10^j) - \max((i + 1) \times 10^j - n - 1 , 0)$ possible numbers starting with $i$, where $j$ is the largest number such that $i\times10^j \leq n$.
