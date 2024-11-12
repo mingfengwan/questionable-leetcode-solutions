@@ -28,6 +28,15 @@ Bitmasking instead of hash set. Hash set consumes 9 times more space than bitmas
 ### My approach
 There are several redundancies in the solution. Looping through all 26 characters is unnecessary.
 
+## Maximal Score After Applying K Operations
+### `✅ Accepted as official solution`
+- [LeetCode link](https://leetcode.com/problems/maximal-score-after-applying-k-operations/)
+- [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/maximal-score-after-applying-k-operations.py)
+- [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/24776)
+
+### My approach
+You only need to gather the largest $k$ elements for the heap. Time complexity reduced to $O(klogk + nlogn)$, space complexity reduced to $O(k)$
+
 ## Count number of nodes in a complete Binary Tree
 - [LeetCode link](https://leetcode.com/problems/count-complete-tree-nodes/)
 - [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/count-complete-tree-nodes.py)
@@ -71,13 +80,6 @@ The code is a lot faster if we set base case to be array size equal to $2$ inste
 
 ### My approach
 One less for loop compared to the official solution.
-
-## Maximal Score After Applying K Operations
-- [LeetCode link](https://leetcode.com/problems/maximal-score-after-applying-k-operations/)
-- [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/maximal-score-after-applying-k-operations.py)
-
-### My approach
-You only need to gather the largest $k$ elements for the heap. Time complexity reduced to $O(klogk + nlogn)$, space complexity reduced to $O(k)$
 
 ## K-th Smallest in Lexicographical Order
 - [LeetCode link](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)
