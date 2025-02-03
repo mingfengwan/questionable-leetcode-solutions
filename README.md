@@ -37,6 +37,11 @@ There are several redundancies in the solution. Looping through all 26 character
 ### My approach
 You only need to gather the largest $k$ elements for the heap. Time complexity reduced to $O(klogk + nlogn)$, space complexity reduced to $O(k)$
 
+## Count Servers that Communicate
+### `✅ Accepted as official solution`
+- [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/26634)
+Errors in the editorial.
+
 ## Count number of nodes in a complete Binary Tree
 - [LeetCode link](https://leetcode.com/problems/count-complete-tree-nodes/)
 - [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/count-complete-tree-nodes.py)
