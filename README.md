@@ -40,7 +40,8 @@ You only need to gather the largest $k$ elements for the heap. Time complexity r
 ## Count Servers that Communicate
 ### `✅ Accepted as official solution`
 - [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/26634)
-Errors in the editorial.
+
+Errors in both the editorial and variable naming.
 
 ## Count number of nodes in a complete Binary Tree
 - [LeetCode link](https://leetcode.com/problems/count-complete-tree-nodes/)
