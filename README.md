@@ -99,6 +99,7 @@ Rationale: Think of this as a permutation problem. For any number between $1$ to
 ## Equal Sum Grid Partition
 - [LeetCode link](https://leetcode.com/problems/equal-sum-grid-partition-i/)
 - [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/equal-sum-grid-partition.py)
+- [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/36565)
 
 ### My approach
 $O(m+n)$ space instead of $O(m*n)$ space complexity
