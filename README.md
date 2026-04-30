@@ -103,3 +103,14 @@ Rationale: Think of this as a permutation problem. For any number between $1$ to
 
 ### My approach
 $O(m+n)$ space instead of $O(m*n)$ space complexity
+
+## Decode String
+- [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/36679)
+
+Incorrect time and space complexity in the editorial.
+
+## Two Furthest Houses With Different Colors
+- [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/36782)
+
+### My approach
+$O(n)$ instead of $O(n^2)$ time complexity.
