@@ -17,7 +17,7 @@ No need for extra space or modifying the array input in-place. Just loop backwar
 - [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/21793)
 
 ### My approach
-Bitmasking instead of hash set. Hash set consumes 9 times more space than bitmasking ($O(n^2)$ versus $O(n)$).
+Bitmasking instead of a hash set. Hash set consumes 9 times more space than bitmasking ($O(n^2)$ versus $O(n)$).
 
 ## Longest Ideal Subsequence
 ### `✅ Accepted as official solution`
@@ -42,6 +42,19 @@ You only need to gather the largest $k$ elements for the heap. Time complexity r
 - [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/26634)
 
 Errors in both the editorial and variable naming.
+
+## Word Ladder II
+### `✅ Accepted as official solution`
+- [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/36801)
+
+Incorrect space complexity in the editorial.
+
+## Two Furthest Houses With Different Colors
+### `✅ Accepted as official solution`
+- [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/36782)
+
+### My approach
+$O(n)$ instead of $O(n^2)$ time complexity.
 
 ## Count number of nodes in a complete Binary Tree
 - [LeetCode link](https://leetcode.com/problems/count-complete-tree-nodes/)
@@ -108,9 +121,3 @@ $O(m+n)$ space instead of $O(m*n)$ space complexity
 - [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/36679)
 
 Incorrect time and space complexity in the editorial.
-
-## Two Furthest Houses With Different Colors
-- [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/36782)
-
-### My approach
-$O(n)$ instead of $O(n^2)$ time complexity.
