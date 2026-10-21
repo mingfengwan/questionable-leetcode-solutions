@@ -56,6 +56,12 @@ Incorrect space complexity in the editorial.
 ### My approach
 $O(n)$ instead of $O(n^2)$ time complexity.
 
+## Decode String
+### `✅ Accepted as official solution`
+- [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/36679)
+
+The editorial had incorrect time and space complexity.
+
 ## Count number of nodes in a complete Binary Tree
 - [LeetCode link](https://leetcode.com/problems/count-complete-tree-nodes/)
 - [My solution](https://github.com/mingfengwan/questionable-leetcode-solutions/blob/main/count-complete-tree-nodes.py)
@@ -116,8 +122,3 @@ Rationale: Think of this as a permutation problem. For any number between $1$ to
 
 ### My approach
 $O(m+n)$ space instead of $O(m*n)$ space complexity
-
-## Decode String
-- [LeetCode Repo Issue](https://github.com/LeetCode-Feedback/LeetCode-Feedback/issues/36679)
-
-Incorrect time and space complexity in the editorial.
